@@ -17,7 +17,7 @@ const UpdateUser = () => {
 
     const updateUser = { name, email, gender, status };
 
-    fetch(`http://localhost:5000/users/${_id}`, {
+    fetch(`https://user-management-server-nine-psi.vercel.app/users/${_id}`, {
       method: "PUT",
       headers: {
         "content-type": "application/json",

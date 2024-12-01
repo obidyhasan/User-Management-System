@@ -15,7 +15,7 @@ const AddUser = () => {
 
     const user = { name, email, gender, status };
 
-    fetch("http://localhost:5000/users", {
+    fetch("https://user-management-server-nine-psi.vercel.app/users", {
       method: "POST",
       headers: {
         "content-type": "application/json",
